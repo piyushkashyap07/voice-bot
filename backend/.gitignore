@@ -1,0 +1,63 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment directories
+.venv/
+env/
+venv/
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+
+# Log files
+logs/
+
+#sonarqube
+.scannerwork/
+
+# FastAPI related
+*.sqlite3  # If you're using SQLite databases for local development
+db.sqlite3
+
+# Pytest cache
+.cache/
+
+# Environment variables file
+.env
+*.env
+
+# Dependency management files (only include if you're using Poetry, Pipenv, etc.)
+poetry.lock
+Pipfile.lock
+
+# Type checking cache (mypy)
+.mypy_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test and coverage reports
+*.coverage
+coverage.xml
+nosetests.xml
+test_*.xml
+
+# VS Code settings
+.vscode/settings.json
+
+# Sphinx documentation build
+docs/_build/
+
+# PyInstaller (for packaging applications)
+dist/
+build/
+*.spec
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
