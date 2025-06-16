@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = FastAPI(
-    title="Gulf-Hr-Project",
-    description="""This project is using a Agentic Framework called as smolAgents."""
+    title="Voice-Bot-Piyush-Kashyap",
+    description="""This project is using a open ai whisper."""
 )
 # Add CORS middleware
 app.add_middleware(
