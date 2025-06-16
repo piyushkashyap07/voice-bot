@@ -22,7 +22,7 @@ const VoiceTextInterface = () => {
   const mediaRecorderRef = useRef(null);
   const audioChunksRef = useRef([]);
   const [message, setMessage] = useState("");
-  const conversationContainerRef = useRef(null);
+  const conversationContainerRef = useRef<HTMLDivElement>(null);
  
 
    
