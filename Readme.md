@@ -1,4 +1,4 @@
-# Project Setup
+# Project Setup with backend and frontend
 
 ## Running the Project
 
